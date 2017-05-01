@@ -51,11 +51,11 @@ where ``$install_path`` is ``/usr/share/nano-syntax-highlighting`` or ``~/.nano/
 ~~~~~~~~~~~~~~~~~~~~~~
 Finally, you can run an automatic installer using the following code::
 
-    $ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | sh
+    $ curl https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh | bash
 
 or alternatively::
 
-    $ wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | sh
+    $ wget https://raw.githubusercontent.com/scopatz/nanorc/master/install.sh -O- | bash
 
 *Note -
     some syntax definitions which exist in Nano upstream may be preferable to the ones provided by this package.
